@@ -8,13 +8,13 @@ public static void main(String[]args)
 	String Original,reverse="";
 	Scanner in = new Scanner(System.in);
 	
-	System.out.print.ln("enetr a string");
-	original = in.nextLine();
+	System.out.println("enter a string");
+	Original = in.nextLine();
 	
-	int length = original.length();
+	int length = Original.length();
 	
 	for (int i= length-1;i>=0;i--)
-		reverse =  reverse + original.CharAt(i);
+		reverse =  reverse + Original.charAt(i);
 	
 	System.out.println("reverse of string"+ reverse);
 }
